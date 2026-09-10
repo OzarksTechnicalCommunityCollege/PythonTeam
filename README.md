@@ -52,3 +52,4 @@ You're free to extend the `Catalog` and `Book` classes with new features as your
 team project requires — this starter is meant to be a foundation, not a final product.
 
 ## Team Members- Micah Duff (Python)
+## Nick Morgan (Python)
