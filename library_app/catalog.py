@@ -6,7 +6,6 @@ checking out, and returning books.
 
 from library_app.book import Book
 
-
 class Catalog:
     """Defines catalog class"""
     def __init__(self):
