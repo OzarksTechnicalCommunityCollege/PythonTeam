@@ -8,5 +8,8 @@ class FinePolicy:
     def calculate_fine(self, due_date, return_date):
         if return_date <= due_date:
             return 0.0
+
         days_late = (return_date - due_date).days
-        return days_late * self.daily_rate
+        fine = days_late * self.daily_rate
+
+        return min(fine, self.fine_threshold)
